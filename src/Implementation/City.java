@@ -37,22 +37,6 @@ public class City {
         return amount;
     }
 
-    public void setMinimalPrice(double minimalPrice){
-        this.minimalPrice = minimalPrice;
-    }
-
-    public void setFirstHourPrice(double firstHourPrice){
-        this.firstHourPrice = firstHourPrice;
-    }
-
-    public void setSecondHourPrice(double secondHourPrice){
-        this.secondHourPrice = secondHourPrice;
-    }
-
-    public void setThirdHourPrice(double thirdHourPrice){
-        this.thirdHourPrice = thirdHourPrice;
-    }
-
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Client should pay:" + amount + " pln");
